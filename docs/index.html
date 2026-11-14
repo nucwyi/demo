@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GitHub Pages 免费地址演示</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --border: #dbe2ea;
+        --accent: #2563eb;
+        --accent-soft: #eff6ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 28px;
+        box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+      }
+
+      .tag {
+        display: inline-block;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      h1 {
+        margin: 16px 0 10px;
+        font-size: clamp(28px, 4vw, 42px);
+        line-height: 1.2;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+        font-size: 16px;
+        line-height: 1.75;
+      }
+
+      ul {
+        margin: 16px 0 0;
+        padding-left: 20px;
+      }
+
+      .info {
+        margin-top: 24px;
+        padding: 18px 20px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: #f9fafb;
+      }
+
+      .info strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--text);
+      }
+
+      code {
+        padding: 2px 6px;
+        border-radius: 6px;
+        background: #eef2f7;
+        color: #0f172a;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 14px;
+      }
+
+      footer {
+        margin-top: 18px;
+        font-size: 14px;
+        color: #6b7280;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <span class="tag">公开测试页 / GitHub Pages 演示</span>
+        <h1>这是一个最小纯静态中文演示页</h1>
+        <p>
+          本页仅用于演示 GitHub Pages 免费托管与自动 HTTPS 效果，不用于正式业务承载。
+          页面不包含用户资料、不提供表单、不接入统计、不引用外部脚本或第三方资源。
+        </p>
+
+        <div class="info">
+          <strong>站点地址说明</strong>
+          <p>
+            GitHub Pages 分配的公开地址通常为
+            <code>https://nucwyi.github.io/demo/</code>。
+            这是 GitHub 分配的二级地址，并非独立域名，也没有绑定自定义域名。
+          </p>
+        </div>
+
+        <div class="info">
+          <strong>测试范围说明</strong>
+          <ul>
+            <li>仅验证仓库级静态托管能力与 GitHub 提供的 HTTPS。</li>
+            <li>内容保持最小化，避免影响复杂项目中的其他逻辑。</li>
+            <li>如未启用 Pages 或未完成部署，仓库中出现本文件不代表站点已上线。</li>
+          </ul>
+        </div>
+
+        <footer>仓库：<code>github.com/nucwyi/demo</code></footer>
+      </section>
+    </main>
+  </body>
+</html>
